@@ -1,0 +1,460 @@
+sku_id,product_name,brand,brand_tier,category,sub_category,mrp,selling_price,weight_grams,is_perishable,shelf_life_days,base_return_rate,is_active
+SKU1001,NatureFresh Fresh Fruits Bundle 200g,NatureFresh,Mid,Fruits & Vegetables,Fresh Fruits,130.99,110.05,200,1,2,0.253,1
+SKU1002,NatureFresh Fresh Fruits Pack 100g,NatureFresh,Mid,Fruits & Vegetables,Fresh Fruits,110.55,92.79,100,1,3,0.24,1
+SKU1003,FreshZone Fresh Fruits Fresh 200g,FreshZone,Mid,Fruits & Vegetables,Fresh Fruits,107.46,94.66,750,1,2,0.186,1
+SKU1004,GoodLife Fresh Fruits Fresh 300g,GoodLife,Mid,Fruits & Vegetables,Fresh Fruits,107.46,91.34,500,1,5,0.267,1
+SKU1005,ValueCart Fresh Fruits Pack 300g,ValueCart,Budget,Fruits & Vegetables,Fresh Fruits,165.85,157.98,750,1,2,0.182,1
+SKU1006,FreshZone Fresh Fruits Pack 400g,FreshZone,Mid,Fruits & Vegetables,Fresh Fruits,139.71,113.75,750,1,5,0.277,1
+SKU1007,NatureFresh Fresh Fruits Pack 200g,NatureFresh,Mid,Fruits & Vegetables,Fresh Fruits,99.88,93.8,200,1,3,0.198,1
+SKU1008,LuxeCart Fresh Fruits Bundle 400g,LuxeCart,Premium,Fruits & Vegetables,Fresh Fruits,132.47,121.13,1000,1,3,0.198,1
+SKU1009,DailyBasket Exotic Vegetables Bundle 100g,DailyBasket,Budget,Fruits & Vegetables,Exotic Vegetables,122.79,111.7,250,1,3,0.223,1
+SKU1010,ValueCart Exotic Vegetables Bundle 500g,ValueCart,Budget,Fruits & Vegetables,Exotic Vegetables,53.39,44.82,1000,1,2,0.209,1
+SKU1011,FreshMart Exotic Vegetables Bundle 400g,FreshMart,Budget,Fruits & Vegetables,Exotic Vegetables,82.39,69.88,500,1,5,0.209,1
+SKU1012,ValueCart Exotic Vegetables Fresh 400g,ValueCart,Budget,Fruits & Vegetables,Exotic Vegetables,125.12,103.31,250,1,3,0.217,1
+SKU1013,FreshZone Exotic Vegetables Bundle 500g,FreshZone,Mid,Fruits & Vegetables,Exotic Vegetables,162.19,142.26,1500,1,5,0.2,1
+SKU1014,DailyBasket Exotic Vegetables Select 400g,DailyBasket,Budget,Fruits & Vegetables,Exotic Vegetables,107.73,87.95,100,1,2,0.231,1
+SKU1015,DailyBasket Exotic Vegetables Fresh 500g,DailyBasket,Budget,Fruits & Vegetables,Exotic Vegetables,97.47,79.09,1500,1,7,0.241,1
+SKU1016,FreshZone Exotic Vegetables Pack 100g,FreshZone,Mid,Fruits & Vegetables,Exotic Vegetables,118.57,109.41,750,1,5,0.197,1
+SKU1017,ValueCart Leafy Greens Box 400g,ValueCart,Budget,Fruits & Vegetables,Leafy Greens,95.66,76.58,750,1,3,0.248,1
+SKU1018,NatureFresh Leafy Greens Bundle 500g,NatureFresh,Mid,Fruits & Vegetables,Leafy Greens,105.61,96.06,250,1,5,0.224,1
+SKU1019,FreshZone Leafy Greens Select 100g,FreshZone,Mid,Fruits & Vegetables,Leafy Greens,114.57,104.01,2000,1,2,0.183,1
+SKU1020,QuickChoice Leafy Greens Bundle 200g,QuickChoice,Budget,Fruits & Vegetables,Leafy Greens,80.94,65.6,200,1,2,0.271,1
+SKU1021,NatureFresh Leafy Greens Select 200g,NatureFresh,Mid,Fruits & Vegetables,Leafy Greens,141.49,116.46,2000,1,3,0.211,1
+SKU1022,HomeFirst Leafy Greens Fresh 200g,HomeFirst,Budget,Fruits & Vegetables,Leafy Greens,75.69,73.21,500,1,5,0.232,1
+SKU1023,QuickChoice Leafy Greens Fresh 500g,QuickChoice,Budget,Fruits & Vegetables,Leafy Greens,72.23,63.65,500,1,3,0.277,1
+SKU1024,FreshMart Leafy Greens Select 500g,FreshMart,Budget,Fruits & Vegetables,Leafy Greens,121.34,102.1,500,1,2,0.258,1
+SKU1025,FreshMart Root Vegetables Box 100g,FreshMart,Budget,Fruits & Vegetables,Root Vegetables,138.78,133.64,1000,1,2,0.189,1
+SKU1026,OrganicPlus Root Vegetables Fresh 200g,OrganicPlus,Mid,Fruits & Vegetables,Root Vegetables,120.52,108.11,2000,1,3,0.2,1
+SKU1027,PureHome Root Vegetables Box 100g,PureHome,Mid,Fruits & Vegetables,Root Vegetables,111.28,90.97,1500,1,5,0.219,1
+SKU1028,PureHome Root Vegetables Pack 100g,PureHome,Mid,Fruits & Vegetables,Root Vegetables,105.3,85.39,1000,1,2,0.207,1
+SKU1029,DailyBasket Root Vegetables Select 400g,DailyBasket,Budget,Fruits & Vegetables,Root Vegetables,100.17,82.66,250,1,5,0.208,1
+SKU1030,NatureFresh Root Vegetables Fresh 500g,NatureFresh,Mid,Fruits & Vegetables,Root Vegetables,149.04,121.86,100,1,2,0.234,1
+SKU1031,FineChoice Root Vegetables Box 400g,FineChoice,Premium,Fruits & Vegetables,Root Vegetables,125.44,111.32,500,1,7,0.187,1
+SKU1032,FineChoice Root Vegetables Fresh 100g,FineChoice,Premium,Fruits & Vegetables,Root Vegetables,102.6,100.28,750,1,7,0.279,1
+SKU1033,HomeFirst Herbs & Seasonings Fresh 200g,HomeFirst,Budget,Fruits & Vegetables,Herbs & Seasonings,93.2,77.75,500,1,2,0.181,1
+SKU1034,FreshZone Herbs & Seasonings Pack 300g,FreshZone,Mid,Fruits & Vegetables,Herbs & Seasonings,134.7,109.15,2000,1,3,0.262,1
+SKU1035,HomeFirst Herbs & Seasonings Pack 200g,HomeFirst,Budget,Fruits & Vegetables,Herbs & Seasonings,148.2,120.39,200,1,3,0.257,1
+SKU1036,FreshZone Herbs & Seasonings Box 500g,FreshZone,Mid,Fruits & Vegetables,Herbs & Seasonings,144.99,131.51,200,1,7,0.187,1
+SKU1037,FreshZone Herbs & Seasonings Select 300g,FreshZone,Mid,Fruits & Vegetables,Herbs & Seasonings,87.98,85.19,500,1,5,0.266,1
+SKU1038,ValueCart Herbs & Seasonings Box 300g,ValueCart,Budget,Fruits & Vegetables,Herbs & Seasonings,105.04,92.68,200,1,2,0.242,1
+SKU1039,FreshZone Herbs & Seasonings Pack 100g,FreshZone,Mid,Fruits & Vegetables,Herbs & Seasonings,99.57,89.29,750,1,3,0.211,1
+SKU1040,GourmetSelect Herbs & Seasonings Box 300g,GourmetSelect,Premium,Fruits & Vegetables,Herbs & Seasonings,109.02,92.81,2000,1,5,0.213,1
+SKU1041,FreshZone Milk Pack 500g,FreshZone,Mid,Dairy & Eggs,Milk,110.48,94.34,200,1,3,0.189,1
+SKU1042,FreshMart Milk Select 200g,FreshMart,Budget,Dairy & Eggs,Milk,124.18,105.43,500,1,5,0.147,1
+SKU1043,QuickChoice Milk Select 400g,QuickChoice,Budget,Dairy & Eggs,Milk,99.11,83.77,100,1,2,0.176,1
+SKU1044,OrganicPlus Milk Pack 100g,OrganicPlus,Mid,Dairy & Eggs,Milk,73.74,63.42,250,1,5,0.156,1
+SKU1045,ValueCart Milk Select 400g,ValueCart,Budget,Dairy & Eggs,Milk,89.1,80.28,200,1,2,0.152,1
+SKU1046,FineChoice Cheese Select 100g,FineChoice,Premium,Dairy & Eggs,Cheese,129.43,122.99,250,1,7,0.143,1
+SKU1047,QuickChoice Cheese Bundle 100g,QuickChoice,Budget,Dairy & Eggs,Cheese,92.19,88.67,500,1,3,0.131,1
+SKU1048,OrganicPlus Cheese Select 400g,OrganicPlus,Mid,Dairy & Eggs,Cheese,82.47,80.43,250,1,3,0.151,1
+SKU1049,FineChoice Cheese Fresh 100g,FineChoice,Premium,Dairy & Eggs,Cheese,84.46,70.29,1000,1,7,0.141,1
+SKU1050,FineChoice Cheese Bundle 200g,FineChoice,Premium,Dairy & Eggs,Cheese,99.0,93.23,200,1,7,0.176,1
+SKU1051,LuxeCart Paneer Box 200g,LuxeCart,Premium,Dairy & Eggs,Paneer,69.63,65.94,2000,1,5,0.193,1
+SKU1052,DailyBasket Paneer Box 100g,DailyBasket,Budget,Dairy & Eggs,Paneer,77.36,71.08,1500,1,5,0.181,1
+SKU1053,FreshMart Paneer Bundle 300g,FreshMart,Budget,Dairy & Eggs,Paneer,113.07,103.51,1500,1,5,0.18,1
+SKU1054,GourmetSelect Paneer Bundle 200g,GourmetSelect,Premium,Dairy & Eggs,Paneer,98.28,88.89,750,1,2,0.119,1
+SKU1055,ValueCart Paneer Bundle 300g,ValueCart,Budget,Dairy & Eggs,Paneer,92.45,81.22,200,1,7,0.181,1
+SKU1056,FineChoice Eggs Bundle 100g,FineChoice,Premium,Dairy & Eggs,Eggs,114.41,106.12,100,1,3,0.19,1
+SKU1057,FreshMart Eggs Bundle 500g,FreshMart,Budget,Dairy & Eggs,Eggs,72.31,61.93,200,1,5,0.123,1
+SKU1058,PureHome Eggs Bundle 400g,PureHome,Mid,Dairy & Eggs,Eggs,81.74,75.65,250,1,3,0.143,1
+SKU1059,PureHome Eggs Box 500g,PureHome,Mid,Dairy & Eggs,Eggs,97.46,87.95,1500,1,2,0.101,1
+SKU1060,DailyBasket Eggs Fresh 500g,DailyBasket,Budget,Dairy & Eggs,Eggs,96.58,87.81,1000,1,7,0.151,1
+SKU1061,GoodLife Butter Select 400g,GoodLife,Mid,Dairy & Eggs,Butter,54.33,51.23,250,1,2,0.112,1
+SKU1062,HomeFirst Butter Bundle 100g,HomeFirst,Budget,Dairy & Eggs,Butter,79.4,75.22,500,1,5,0.134,1
+SKU1063,DailyBasket Butter Box 100g,DailyBasket,Budget,Dairy & Eggs,Butter,85.94,69.47,2000,1,2,0.152,1
+SKU1064,FreshZone Butter Box 400g,FreshZone,Mid,Dairy & Eggs,Butter,100.18,89.06,500,1,3,0.17,1
+SKU1065,NatureFresh Butter Pack 400g,NatureFresh,Mid,Dairy & Eggs,Butter,96.49,80.99,2000,1,2,0.196,1
+SKU1066,NatureFresh Curd & Yogurt Fresh 200g,NatureFresh,Mid,Dairy & Eggs,Curd & Yogurt,88.12,83.21,1000,1,7,0.125,1
+SKU1067,FreshZone Curd & Yogurt Fresh 500g,FreshZone,Mid,Dairy & Eggs,Curd & Yogurt,41.65,36.66,250,1,7,0.128,1
+SKU1068,GoodLife Curd & Yogurt Bundle 500g,GoodLife,Mid,Dairy & Eggs,Curd & Yogurt,89.33,79.26,500,1,5,0.104,1
+SKU1069,OrganicPlus Curd & Yogurt Box 300g,OrganicPlus,Mid,Dairy & Eggs,Curd & Yogurt,91.52,78.75,200,1,3,0.105,1
+SKU1070,ValueCart Curd & Yogurt Box 200g,ValueCart,Budget,Dairy & Eggs,Curd & Yogurt,152.07,123.41,1500,1,5,0.128,1
+SKU1071,PureHome Ghee Pack 200g,PureHome,Mid,Dairy & Eggs,Ghee,85.15,80.89,1500,1,2,0.114,1
+SKU1072,EliteGrocers Ghee Fresh 400g,EliteGrocers,Premium,Dairy & Eggs,Ghee,97.6,78.18,1000,1,5,0.149,1
+SKU1073,PureHome Ghee Select 500g,PureHome,Mid,Dairy & Eggs,Ghee,118.8,112.14,500,1,7,0.124,1
+SKU1074,ValueCart Ghee Fresh 100g,ValueCart,Budget,Dairy & Eggs,Ghee,108.95,94.79,1500,1,3,0.173,1
+SKU1075,FineChoice Ghee Select 500g,FineChoice,Premium,Dairy & Eggs,Ghee,125.35,100.89,1500,1,2,0.163,1
+SKU1076,ValueCart Chicken Box 400g,ValueCart,Budget,Meat & Seafood,Chicken,218.69,182.11,750,1,7,0.204,1
+SKU1077,ValueCart Chicken Bundle 300g,ValueCart,Budget,Meat & Seafood,Chicken,260.15,243.77,1500,1,5,0.154,1
+SKU1078,PureHome Chicken Bundle 100g,PureHome,Mid,Meat & Seafood,Chicken,302.92,267.98,100,1,5,0.209,1
+SKU1079,FreshMart Chicken Pack 100g,FreshMart,Budget,Meat & Seafood,Chicken,203.69,197.77,500,1,2,0.215,1
+SKU1080,GoodLife Chicken Box 400g,GoodLife,Mid,Meat & Seafood,Chicken,366.91,337.74,500,1,7,0.167,1
+SKU1081,OrganicPlus Chicken Box 500g,OrganicPlus,Mid,Meat & Seafood,Chicken,267.32,243.08,200,1,3,0.244,1
+SKU1082,GourmetSelect Chicken Select 100g,GourmetSelect,Premium,Meat & Seafood,Chicken,516.23,499.3,1500,1,7,0.164,1
+SKU1083,FineChoice Chicken Pack 500g,FineChoice,Premium,Meat & Seafood,Chicken,281.05,259.78,500,1,2,0.242,1
+SKU1084,OrganicPlus Mutton Select 100g,OrganicPlus,Mid,Meat & Seafood,Mutton,327.54,308.98,100,1,5,0.238,1
+SKU1085,OrganicPlus Mutton Pack 500g,OrganicPlus,Mid,Meat & Seafood,Mutton,442.0,405.12,100,1,7,0.232,1
+SKU1086,GourmetSelect Mutton Fresh 300g,GourmetSelect,Premium,Meat & Seafood,Mutton,235.93,215.74,2000,1,3,0.206,1
+SKU1087,FreshZone Mutton Bundle 500g,FreshZone,Mid,Meat & Seafood,Mutton,197.97,187.18,2000,1,7,0.159,1
+SKU1088,FreshZone Mutton Bundle 300g,FreshZone,Mid,Meat & Seafood,Mutton,378.61,360.93,200,1,5,0.24,1
+SKU1089,FineChoice Mutton Fresh 500g,FineChoice,Premium,Meat & Seafood,Mutton,386.2,351.39,1500,1,5,0.184,1
+SKU1090,QuickChoice Mutton Box 400g,QuickChoice,Budget,Meat & Seafood,Mutton,438.81,367.8,750,1,5,0.185,1
+SKU1091,HomeFirst Mutton Bundle 500g,HomeFirst,Budget,Meat & Seafood,Mutton,412.61,330.84,500,1,2,0.239,1
+SKU1092,ValueCart Fish Fresh 500g,ValueCart,Budget,Meat & Seafood,Fish,389.94,365.17,2000,1,7,0.228,1
+SKU1093,NatureFresh Fish Pack 300g,NatureFresh,Mid,Meat & Seafood,Fish,291.45,244.79,500,1,5,0.166,1
+SKU1094,OrganicPlus Fish Fresh 500g,OrganicPlus,Mid,Meat & Seafood,Fish,383.41,343.37,1500,1,5,0.24,1
+SKU1095,ValueCart Fish Bundle 300g,ValueCart,Budget,Meat & Seafood,Fish,389.54,329.26,200,1,3,0.151,1
+SKU1096,HomeFirst Fish Box 200g,HomeFirst,Budget,Meat & Seafood,Fish,287.99,241.61,2000,1,5,0.166,1
+SKU1097,FreshZone Fish Select 300g,FreshZone,Mid,Meat & Seafood,Fish,548.07,535.19,500,1,5,0.215,1
+SKU1098,DailyBasket Fish Bundle 100g,DailyBasket,Budget,Meat & Seafood,Fish,407.76,378.17,250,1,5,0.172,1
+SKU1099,FreshMart Fish Select 300g,FreshMart,Budget,Meat & Seafood,Fish,261.75,242.26,250,1,7,0.183,1
+SKU1100,FreshMart Prawns & Shrimp Select 300g,FreshMart,Budget,Meat & Seafood,Prawns & Shrimp,439.34,388.59,2000,1,5,0.225,1
+SKU1101,FreshMart Prawns & Shrimp Bundle 400g,FreshMart,Budget,Meat & Seafood,Prawns & Shrimp,457.11,375.08,200,1,7,0.216,1
+SKU1102,FreshZone Prawns & Shrimp Pack 200g,FreshZone,Mid,Meat & Seafood,Prawns & Shrimp,401.61,332.07,750,1,2,0.207,1
+SKU1103,GourmetSelect Prawns & Shrimp Select 400g,GourmetSelect,Premium,Meat & Seafood,Prawns & Shrimp,335.26,304.8,500,1,7,0.177,1
+SKU1104,PureHome Prawns & Shrimp Bundle 500g,PureHome,Mid,Meat & Seafood,Prawns & Shrimp,284.02,277.83,750,1,2,0.174,1
+SKU1105,NatureFresh Prawns & Shrimp Box 200g,NatureFresh,Mid,Meat & Seafood,Prawns & Shrimp,352.23,298.56,200,1,3,0.239,1
+SKU1106,HomeFirst Prawns & Shrimp Pack 200g,HomeFirst,Budget,Meat & Seafood,Prawns & Shrimp,394.39,315.7,2000,1,7,0.213,1
+SKU1107,DailyBasket Prawns & Shrimp Bundle 300g,DailyBasket,Budget,Meat & Seafood,Prawns & Shrimp,361.31,334.77,2000,1,2,0.208,1
+SKU1108,OrganicPlus Other Seafood Select 200g,OrganicPlus,Mid,Meat & Seafood,Other Seafood,506.52,443.98,500,1,3,0.199,1
+SKU1109,FineChoice Other Seafood Pack 100g,FineChoice,Premium,Meat & Seafood,Other Seafood,423.07,351.09,750,1,5,0.178,1
+SKU1110,PureHome Other Seafood Bundle 400g,PureHome,Mid,Meat & Seafood,Other Seafood,273.6,265.3,2000,1,7,0.152,1
+SKU1111,FreshMart Other Seafood Fresh 300g,FreshMart,Budget,Meat & Seafood,Other Seafood,252.05,229.03,100,1,2,0.244,1
+SKU1112,HomeFirst Other Seafood Select 100g,HomeFirst,Budget,Meat & Seafood,Other Seafood,408.63,400.43,750,1,2,0.245,1
+SKU1113,GoodLife Other Seafood Fresh 500g,GoodLife,Mid,Meat & Seafood,Other Seafood,337.47,309.55,750,1,3,0.152,1
+SKU1114,LuxeCart Other Seafood Fresh 100g,LuxeCart,Premium,Meat & Seafood,Other Seafood,431.97,382.12,1500,1,5,0.243,1
+SKU1115,FreshMart Other Seafood Box 300g,FreshMart,Budget,Meat & Seafood,Other Seafood,407.7,356.37,2000,1,5,0.246,1
+SKU1116,PureHome Ice Cream Select 100g,PureHome,Mid,Frozen Foods,Ice Cream,215.51,190.05,1000,1,5,0.215,1
+SKU1117,ValueCart Ice Cream Select 100g,ValueCart,Budget,Frozen Foods,Ice Cream,167.84,154.14,2000,1,7,0.215,1
+SKU1118,HomeFirst Ice Cream Bundle 500g,HomeFirst,Budget,Frozen Foods,Ice Cream,126.69,118.6,2000,1,2,0.162,1
+SKU1119,HomeFirst Ice Cream Box 300g,HomeFirst,Budget,Frozen Foods,Ice Cream,233.19,204.94,2000,1,2,0.224,1
+SKU1120,HomeFirst Ice Cream Box 200g,HomeFirst,Budget,Frozen Foods,Ice Cream,143.26,122.62,100,1,7,0.2,1
+SKU1121,FreshMart Ice Cream Fresh 100g,FreshMart,Budget,Frozen Foods,Ice Cream,165.55,151.74,250,1,7,0.192,1
+SKU1122,PremiumOrg Ice Cream Select 300g,PremiumOrg,Premium,Frozen Foods,Ice Cream,229.47,200.74,2000,1,7,0.229,1
+SKU1123,HomeFirst Ice Cream Box 400g,HomeFirst,Budget,Frozen Foods,Ice Cream,223.59,186.54,250,1,2,0.218,1
+SKU1124,ValueCart Frozen Vegetables Bundle 500g,ValueCart,Budget,Frozen Foods,Frozen Vegetables,149.59,126.87,100,1,5,0.204,1
+SKU1125,FreshZone Frozen Vegetables Select 400g,FreshZone,Mid,Frozen Foods,Frozen Vegetables,286.72,274.03,2000,1,7,0.166,1
+SKU1126,HomeFirst Frozen Vegetables Select 400g,HomeFirst,Budget,Frozen Foods,Frozen Vegetables,284.91,251.28,1000,1,3,0.159,1
+SKU1127,FineChoice Frozen Vegetables Select 400g,FineChoice,Premium,Frozen Foods,Frozen Vegetables,251.73,211.97,1500,1,2,0.217,1
+SKU1128,ValueCart Frozen Vegetables Fresh 400g,ValueCart,Budget,Frozen Foods,Frozen Vegetables,251.65,246.09,250,1,7,0.221,1
+SKU1129,FineChoice Frozen Vegetables Select 500g,FineChoice,Premium,Frozen Foods,Frozen Vegetables,251.73,216.43,200,1,7,0.21,1
+SKU1130,ValueCart Frozen Vegetables Pack 200g,ValueCart,Budget,Frozen Foods,Frozen Vegetables,457.33,399.61,250,1,2,0.195,1
+SKU1131,OrganicPlus Frozen Vegetables Bundle 500g,OrganicPlus,Mid,Frozen Foods,Frozen Vegetables,278.77,257.77,200,1,5,0.219,1
+SKU1132,EliteGrocers Ready to Cook Fresh 300g,EliteGrocers,Premium,Frozen Foods,Ready to Cook,260.13,237.45,2000,1,2,0.164,1
+SKU1133,GoodLife Ready to Cook Bundle 200g,GoodLife,Mid,Frozen Foods,Ready to Cook,172.39,161.08,1500,1,2,0.188,1
+SKU1134,NatureFresh Ready to Cook Fresh 200g,NatureFresh,Mid,Frozen Foods,Ready to Cook,205.41,189.99,100,1,2,0.134,1
+SKU1135,FreshMart Ready to Cook Bundle 300g,FreshMart,Budget,Frozen Foods,Ready to Cook,362.58,314.53,250,1,3,0.159,1
+SKU1136,FreshZone Ready to Cook Box 200g,FreshZone,Mid,Frozen Foods,Ready to Cook,104.98,87.29,1500,1,3,0.189,1
+SKU1137,FreshZone Ready to Cook Box 200g,FreshZone,Mid,Frozen Foods,Ready to Cook,190.93,168.59,750,1,7,0.143,1
+SKU1138,FreshMart Ready to Cook Fresh 300g,FreshMart,Budget,Frozen Foods,Ready to Cook,287.08,264.68,250,1,2,0.182,1
+SKU1139,OrganicPlus Ready to Cook Select 300g,OrganicPlus,Mid,Frozen Foods,Ready to Cook,175.94,160.99,1500,1,5,0.192,1
+SKU1140,OrganicPlus Frozen Snacks Box 400g,OrganicPlus,Mid,Frozen Foods,Frozen Snacks,261.86,249.71,200,1,3,0.139,1
+SKU1141,QuickChoice Frozen Snacks Select 300g,QuickChoice,Budget,Frozen Foods,Frozen Snacks,222.81,218.06,750,1,2,0.184,1
+SKU1142,LuxeCart Frozen Snacks Bundle 100g,LuxeCart,Premium,Frozen Foods,Frozen Snacks,179.86,162.21,100,1,7,0.194,1
+SKU1143,PremiumOrg Frozen Snacks Box 500g,PremiumOrg,Premium,Frozen Foods,Frozen Snacks,95.25,89.95,500,1,3,0.21,1
+SKU1144,GoodLife Frozen Snacks Pack 100g,GoodLife,Mid,Frozen Foods,Frozen Snacks,231.49,198.06,2000,1,2,0.157,1
+SKU1145,GoodLife Frozen Snacks Pack 300g,GoodLife,Mid,Frozen Foods,Frozen Snacks,171.18,147.01,1500,1,3,0.133,1
+SKU1146,HomeFirst Frozen Snacks Bundle 500g,HomeFirst,Budget,Frozen Foods,Frozen Snacks,212.93,189.58,750,1,3,0.226,1
+SKU1147,ValueCart Frozen Snacks Bundle 300g,ValueCart,Budget,Frozen Foods,Frozen Snacks,251.11,237.24,2000,1,2,0.171,1
+SKU1148,DailyBasket Frozen Meat Fresh 500g,DailyBasket,Budget,Frozen Foods,Frozen Meat,273.33,236.66,1500,1,2,0.147,1
+SKU1149,FreshMart Frozen Meat Fresh 300g,FreshMart,Budget,Frozen Foods,Frozen Meat,190.74,175.69,750,1,7,0.185,1
+SKU1150,PremiumOrg Frozen Meat Pack 200g,PremiumOrg,Premium,Frozen Foods,Frozen Meat,179.75,159.05,1000,1,3,0.201,1
+SKU1151,PureHome Frozen Meat Bundle 400g,PureHome,Mid,Frozen Foods,Frozen Meat,142.33,116.85,100,1,2,0.225,1
+SKU1152,ValueCart Frozen Meat Pack 100g,ValueCart,Budget,Frozen Foods,Frozen Meat,276.54,232.92,250,1,7,0.204,1
+SKU1153,FreshZone Frozen Meat Fresh 500g,FreshZone,Mid,Frozen Foods,Frozen Meat,350.72,327.44,250,1,7,0.172,1
+SKU1154,PureHome Frozen Meat Select 400g,PureHome,Mid,Frozen Foods,Frozen Meat,283.6,274.82,750,1,2,0.155,1
+SKU1155,GoodLife Frozen Meat Fresh 400g,GoodLife,Mid,Frozen Foods,Frozen Meat,298.04,289.43,1000,1,2,0.131,1
+SKU1156,PremiumOrg Bread & Buns Select 300g,PremiumOrg,Premium,Bakery & Bread,Bread & Buns,62.54,50.71,750,0,90,0.052,1
+SKU1157,LuxeCart Bread & Buns Pack 200g,LuxeCart,Premium,Bakery & Bread,Bread & Buns,87.69,80.28,100,0,90,0.087,1
+SKU1158,GoodLife Bread & Buns Box 500g,GoodLife,Mid,Bakery & Bread,Bread & Buns,94.92,79.44,500,0,365,0.05,1
+SKU1159,DailyBasket Bread & Buns Bundle 200g,DailyBasket,Budget,Bakery & Bread,Bread & Buns,12.0,11.3,100,0,180,0.057,1
+SKU1160,FineChoice Bread & Buns Box 500g,FineChoice,Premium,Bakery & Bread,Bread & Buns,55.63,47.01,250,0,90,0.083,1
+SKU1161,NatureFresh Bread & Buns Box 100g,NatureFresh,Mid,Bakery & Bread,Bread & Buns,113.65,98.25,500,0,365,0.104,1
+SKU1162,DailyBasket Bread & Buns Bundle 100g,DailyBasket,Budget,Bakery & Bread,Bread & Buns,46.77,38.48,1500,0,365,0.045,1
+SKU1163,FreshMart Bread & Buns Fresh 400g,FreshMart,Budget,Bakery & Bread,Bread & Buns,109.48,102.92,200,0,180,0.09,1
+SKU1164,FreshZone Biscuits & Cookies Pack 500g,FreshZone,Mid,Bakery & Bread,Biscuits & Cookies,46.64,39.84,100,0,90,0.126,1
+SKU1165,LuxeCart Biscuits & Cookies Fresh 100g,LuxeCart,Premium,Bakery & Bread,Biscuits & Cookies,56.56,50.24,2000,0,90,0.047,1
+SKU1166,PremiumOrg Biscuits & Cookies Select 200g,PremiumOrg,Premium,Bakery & Bread,Biscuits & Cookies,88.09,71.51,750,0,365,0.104,1
+SKU1167,FreshZone Biscuits & Cookies Bundle 400g,FreshZone,Mid,Bakery & Bread,Biscuits & Cookies,79.52,77.85,750,0,180,0.134,1
+SKU1168,PureHome Biscuits & Cookies Pack 100g,PureHome,Mid,Bakery & Bread,Biscuits & Cookies,69.58,66.34,500,0,180,0.098,1
+SKU1169,GoodLife Biscuits & Cookies Fresh 300g,GoodLife,Mid,Bakery & Bread,Biscuits & Cookies,112.64,106.89,1500,0,180,0.086,1
+SKU1170,OrganicPlus Biscuits & Cookies Fresh 300g,OrganicPlus,Mid,Bakery & Bread,Biscuits & Cookies,50.97,46.88,1000,0,90,0.095,1
+SKU1171,PureHome Biscuits & Cookies Pack 100g,PureHome,Mid,Bakery & Bread,Biscuits & Cookies,74.69,70.93,200,0,180,0.136,1
+SKU1172,QuickChoice Cakes & Pastries Box 500g,QuickChoice,Budget,Bakery & Bread,Cakes & Pastries,90.85,73.66,1000,0,365,0.131,1
+SKU1173,QuickChoice Cakes & Pastries Fresh 100g,QuickChoice,Budget,Bakery & Bread,Cakes & Pastries,84.14,81.98,750,0,180,0.047,1
+SKU1174,HomeFirst Cakes & Pastries Box 200g,HomeFirst,Budget,Bakery & Bread,Cakes & Pastries,64.4,59.13,500,0,90,0.072,1
+SKU1175,HomeFirst Cakes & Pastries Bundle 100g,HomeFirst,Budget,Bakery & Bread,Cakes & Pastries,65.13,61.04,500,0,180,0.052,1
+SKU1176,EliteGrocers Cakes & Pastries Select 500g,EliteGrocers,Premium,Bakery & Bread,Cakes & Pastries,96.56,77.7,750,0,90,0.11,1
+SKU1177,QuickChoice Cakes & Pastries Bundle 300g,QuickChoice,Budget,Bakery & Bread,Cakes & Pastries,97.65,78.23,250,0,365,0.114,1
+SKU1178,NatureFresh Cakes & Pastries Box 100g,NatureFresh,Mid,Bakery & Bread,Cakes & Pastries,84.71,69.17,500,0,180,0.12,1
+SKU1179,OrganicPlus Cakes & Pastries Box 300g,OrganicPlus,Mid,Bakery & Bread,Cakes & Pastries,59.89,51.27,1000,0,365,0.115,1
+SKU1180,NatureFresh Muffins Box 200g,NatureFresh,Mid,Bakery & Bread,Muffins,65.77,61.55,100,0,365,0.121,1
+SKU1181,ValueCart Muffins Fresh 400g,ValueCart,Budget,Bakery & Bread,Muffins,77.54,70.51,1500,0,180,0.077,1
+SKU1182,HomeFirst Muffins Pack 300g,HomeFirst,Budget,Bakery & Bread,Muffins,80.56,70.68,750,0,365,0.118,1
+SKU1183,PureHome Muffins Select 300g,PureHome,Mid,Bakery & Bread,Muffins,89.95,72.7,1500,0,365,0.126,1
+SKU1184,DailyBasket Muffins Bundle 200g,DailyBasket,Budget,Bakery & Bread,Muffins,73.58,69.03,750,0,180,0.083,1
+SKU1185,FreshMart Muffins Fresh 400g,FreshMart,Budget,Bakery & Bread,Muffins,96.03,79.86,1500,0,365,0.05,1
+SKU1186,FreshZone Muffins Select 300g,FreshZone,Mid,Bakery & Bread,Muffins,95.77,77.86,100,0,180,0.13,1
+SKU1187,FreshMart Muffins Bundle 500g,FreshMart,Budget,Bakery & Bread,Muffins,106.51,93.44,1500,0,365,0.072,1
+SKU1188,OrganicPlus Rusks & Toasts Pack 400g,OrganicPlus,Mid,Bakery & Bread,Rusks & Toasts,78.46,63.06,1000,0,90,0.13,1
+SKU1189,EliteGrocers Rusks & Toasts Fresh 300g,EliteGrocers,Premium,Bakery & Bread,Rusks & Toasts,85.08,69.41,200,0,90,0.135,1
+SKU1190,PureHome Rusks & Toasts Select 100g,PureHome,Mid,Bakery & Bread,Rusks & Toasts,75.16,65.48,750,0,365,0.097,1
+SKU1191,QuickChoice Rusks & Toasts Box 100g,QuickChoice,Budget,Bakery & Bread,Rusks & Toasts,60.13,53.63,200,0,365,0.069,1
+SKU1192,OrganicPlus Rusks & Toasts Bundle 200g,OrganicPlus,Mid,Bakery & Bread,Rusks & Toasts,123.7,104.22,250,0,180,0.073,1
+SKU1193,HomeFirst Rusks & Toasts Box 100g,HomeFirst,Budget,Bakery & Bread,Rusks & Toasts,103.29,85.93,2000,0,180,0.119,1
+SKU1194,FreshZone Rusks & Toasts Fresh 500g,FreshZone,Mid,Bakery & Bread,Rusks & Toasts,95.29,87.26,1000,0,365,0.119,1
+SKU1195,ValueCart Rusks & Toasts Pack 400g,ValueCart,Budget,Bakery & Bread,Rusks & Toasts,77.73,68.37,750,0,180,0.046,1
+SKU1196,OrganicPlus Chips & Crisps Select 100g,OrganicPlus,Mid,Snacks & Namkeen,Chips & Crisps,78.62,67.29,2000,0,90,0.065,1
+SKU1197,QuickChoice Chips & Crisps Pack 100g,QuickChoice,Budget,Snacks & Namkeen,Chips & Crisps,133.67,121.73,1500,0,180,0.045,1
+SKU1198,NatureFresh Chips & Crisps Fresh 500g,NatureFresh,Mid,Snacks & Namkeen,Chips & Crisps,100.68,92.36,1000,0,365,0.022,1
+SKU1199,GoodLife Chips & Crisps Pack 400g,GoodLife,Mid,Snacks & Namkeen,Chips & Crisps,117.14,95.89,1000,0,365,0.072,1
+SKU1200,DailyBasket Chips & Crisps Pack 200g,DailyBasket,Budget,Snacks & Namkeen,Chips & Crisps,88.43,82.01,2000,0,365,0.02,1
+SKU1201,GoodLife Chips & Crisps Bundle 300g,GoodLife,Mid,Snacks & Namkeen,Chips & Crisps,112.2,108.3,1500,0,180,0.017,1
+SKU1202,FreshZone Chips & Crisps Pack 300g,FreshZone,Mid,Snacks & Namkeen,Chips & Crisps,90.1,73.15,200,0,365,0.092,1
+SKU1203,OrganicPlus Chips & Crisps Bundle 500g,OrganicPlus,Mid,Snacks & Namkeen,Chips & Crisps,91.15,87.25,1000,0,90,0.018,1
+SKU1204,GoodLife Namkeen Bundle 300g,GoodLife,Mid,Snacks & Namkeen,Namkeen,111.82,108.93,1500,0,90,0.109,1
+SKU1205,NatureFresh Namkeen Bundle 500g,NatureFresh,Mid,Snacks & Namkeen,Namkeen,62.43,54.18,1000,0,90,0.091,1
+SKU1206,FreshZone Namkeen Pack 400g,FreshZone,Mid,Snacks & Namkeen,Namkeen,63.62,56.72,100,0,180,0.105,1
+SKU1207,DailyBasket Namkeen Bundle 400g,DailyBasket,Budget,Snacks & Namkeen,Namkeen,83.88,70.0,250,0,90,0.088,1
+SKU1208,FreshMart Namkeen Select 500g,FreshMart,Budget,Snacks & Namkeen,Namkeen,98.72,93.82,100,0,365,0.066,1
+SKU1209,HomeFirst Namkeen Box 500g,HomeFirst,Budget,Snacks & Namkeen,Namkeen,130.22,113.01,250,0,90,0.021,1
+SKU1210,EliteGrocers Namkeen Box 400g,EliteGrocers,Premium,Snacks & Namkeen,Namkeen,100.3,81.03,1000,0,365,0.059,1
+SKU1211,PureHome Namkeen Select 300g,PureHome,Mid,Snacks & Namkeen,Namkeen,104.46,97.72,2000,0,90,0.016,1
+SKU1212,OrganicPlus Popcorn Fresh 200g,OrganicPlus,Mid,Snacks & Namkeen,Popcorn,96.51,83.6,2000,0,180,0.022,1
+SKU1213,PureHome Popcorn Select 500g,PureHome,Mid,Snacks & Namkeen,Popcorn,114.49,100.22,250,0,90,0.085,1
+SKU1214,FineChoice Popcorn Bundle 100g,FineChoice,Premium,Snacks & Namkeen,Popcorn,80.68,73.86,1000,0,365,0.068,1
+SKU1215,EliteGrocers Popcorn Pack 300g,EliteGrocers,Premium,Snacks & Namkeen,Popcorn,101.8,82.98,250,0,180,0.039,1
+SKU1216,FreshZone Popcorn Box 400g,FreshZone,Mid,Snacks & Namkeen,Popcorn,116.81,95.38,500,0,180,0.097,1
+SKU1217,GourmetSelect Popcorn Fresh 100g,GourmetSelect,Premium,Snacks & Namkeen,Popcorn,111.59,97.24,1000,0,90,0.017,1
+SKU1218,FreshMart Popcorn Bundle 200g,FreshMart,Budget,Snacks & Namkeen,Popcorn,105.37,84.83,200,0,365,0.065,1
+SKU1219,GoodLife Popcorn Box 100g,GoodLife,Mid,Snacks & Namkeen,Popcorn,105.72,90.04,2000,0,365,0.073,1
+SKU1220,LuxeCart Nuts & Dry Fruits Fresh 500g,LuxeCart,Premium,Snacks & Namkeen,Nuts & Dry Fruits,119.64,95.83,200,0,90,0.08,1
+SKU1221,DailyBasket Nuts & Dry Fruits Select 500g,DailyBasket,Budget,Snacks & Namkeen,Nuts & Dry Fruits,168.3,150.63,200,0,180,0.068,1
+SKU1222,FreshMart Nuts & Dry Fruits Pack 200g,FreshMart,Budget,Snacks & Namkeen,Nuts & Dry Fruits,82.44,72.18,2000,0,90,0.1,1
+SKU1223,ValueCart Nuts & Dry Fruits Select 500g,ValueCart,Budget,Snacks & Namkeen,Nuts & Dry Fruits,169.38,136.01,500,0,365,0.038,1
+SKU1224,ValueCart Nuts & Dry Fruits Pack 500g,ValueCart,Budget,Snacks & Namkeen,Nuts & Dry Fruits,81.24,70.15,1500,0,90,0.029,1
+SKU1225,NatureFresh Nuts & Dry Fruits Select 300g,NatureFresh,Mid,Snacks & Namkeen,Nuts & Dry Fruits,42.56,34.57,100,0,180,0.068,1
+SKU1226,GourmetSelect Nuts & Dry Fruits Fresh 300g,GourmetSelect,Premium,Snacks & Namkeen,Nuts & Dry Fruits,89.54,75.72,100,0,180,0.018,1
+SKU1227,OrganicPlus Nuts & Dry Fruits Box 100g,OrganicPlus,Mid,Snacks & Namkeen,Nuts & Dry Fruits,115.05,108.02,1000,0,90,0.041,1
+SKU1228,HomeFirst Energy Bars Bundle 200g,HomeFirst,Budget,Snacks & Namkeen,Energy Bars,160.16,152.07,2000,0,365,0.091,1
+SKU1229,GoodLife Energy Bars Box 100g,GoodLife,Mid,Snacks & Namkeen,Energy Bars,78.59,73.0,2000,0,90,0.101,1
+SKU1230,FreshMart Energy Bars Box 100g,FreshMart,Budget,Snacks & Namkeen,Energy Bars,119.46,102.35,750,0,365,0.092,1
+SKU1231,HomeFirst Energy Bars Fresh 300g,HomeFirst,Budget,Snacks & Namkeen,Energy Bars,66.19,53.39,500,0,180,0.103,1
+SKU1232,FreshMart Energy Bars Bundle 300g,FreshMart,Budget,Snacks & Namkeen,Energy Bars,158.84,130.63,1000,0,180,0.097,1
+SKU1233,LuxeCart Energy Bars Fresh 300g,LuxeCart,Premium,Snacks & Namkeen,Energy Bars,139.68,136.23,2000,0,365,0.109,1
+SKU1234,FreshZone Energy Bars Bundle 100g,FreshZone,Mid,Snacks & Namkeen,Energy Bars,91.21,84.91,200,0,180,0.025,1
+SKU1235,GoodLife Energy Bars Select 300g,GoodLife,Mid,Snacks & Namkeen,Energy Bars,54.63,46.86,200,0,180,0.107,1
+SKU1236,OrganicPlus Juices Fresh 500g,OrganicPlus,Mid,Beverages,Juices,131.01,121.73,250,0,365,0.084,1
+SKU1237,PureHome Juices Pack 300g,PureHome,Mid,Beverages,Juices,91.95,83.74,1500,0,180,0.041,1
+SKU1238,NatureFresh Juices Pack 400g,NatureFresh,Mid,Beverages,Juices,127.93,110.71,250,0,90,0.027,1
+SKU1239,HomeFirst Juices Fresh 100g,HomeFirst,Budget,Beverages,Juices,95.14,78.27,500,0,365,0.077,1
+SKU1240,ValueCart Juices Select 100g,ValueCart,Budget,Beverages,Juices,96.25,87.48,2000,0,180,0.094,1
+SKU1241,FreshMart Juices Select 200g,FreshMart,Budget,Beverages,Juices,83.03,74.34,1500,0,180,0.045,1
+SKU1242,GoodLife Soft Drinks Pack 100g,GoodLife,Mid,Beverages,Soft Drinks,111.57,104.03,2000,0,365,0.013,1
+SKU1243,HomeFirst Soft Drinks Pack 300g,HomeFirst,Budget,Beverages,Soft Drinks,98.2,92.26,2000,0,90,0.023,1
+SKU1244,PremiumOrg Soft Drinks Fresh 200g,PremiumOrg,Premium,Beverages,Soft Drinks,108.68,89.34,200,0,180,0.067,1
+SKU1245,ValueCart Soft Drinks Pack 300g,ValueCart,Budget,Beverages,Soft Drinks,54.19,49.87,200,0,365,0.011,1
+SKU1246,OrganicPlus Soft Drinks Box 200g,OrganicPlus,Mid,Beverages,Soft Drinks,128.99,121.62,500,0,90,0.067,1
+SKU1247,FineChoice Soft Drinks Box 400g,FineChoice,Premium,Beverages,Soft Drinks,136.26,109.65,1000,0,180,0.052,1
+SKU1248,EliteGrocers Energy Drinks Box 500g,EliteGrocers,Premium,Beverages,Energy Drinks,98.08,94.07,200,0,180,0.085,1
+SKU1249,ValueCart Energy Drinks Select 400g,ValueCart,Budget,Beverages,Energy Drinks,149.82,140.6,200,0,90,0.088,1
+SKU1250,GourmetSelect Energy Drinks Fresh 400g,GourmetSelect,Premium,Beverages,Energy Drinks,141.69,130.7,1000,0,90,0.04,1
+SKU1251,EliteGrocers Energy Drinks Select 200g,EliteGrocers,Premium,Beverages,Energy Drinks,112.17,105.24,250,0,180,0.07,1
+SKU1252,NatureFresh Energy Drinks Pack 500g,NatureFresh,Mid,Beverages,Energy Drinks,131.41,108.75,250,0,90,0.021,1
+SKU1253,DailyBasket Energy Drinks Bundle 500g,DailyBasket,Budget,Beverages,Energy Drinks,123.15,118.36,200,0,180,0.039,1
+SKU1254,HomeFirst Tea & Coffee Bundle 200g,HomeFirst,Budget,Beverages,Tea & Coffee,48.22,44.0,200,0,365,0.044,1
+SKU1255,FreshZone Tea & Coffee Select 200g,FreshZone,Mid,Beverages,Tea & Coffee,87.83,72.97,1000,0,365,0.051,1
+SKU1256,FreshMart Tea & Coffee Pack 100g,FreshMart,Budget,Beverages,Tea & Coffee,114.09,110.75,750,0,365,0.078,1
+SKU1257,HomeFirst Tea & Coffee Fresh 500g,HomeFirst,Budget,Beverages,Tea & Coffee,138.32,126.57,2000,0,365,0.086,1
+SKU1258,OrganicPlus Tea & Coffee Fresh 200g,OrganicPlus,Mid,Beverages,Tea & Coffee,58.29,55.07,1500,0,180,0.095,1
+SKU1259,NatureFresh Tea & Coffee Box 400g,NatureFresh,Mid,Beverages,Tea & Coffee,49.69,43.47,2000,0,90,0.046,1
+SKU1260,DailyBasket Health Drinks Bundle 300g,DailyBasket,Budget,Beverages,Health Drinks,93.52,87.18,1000,0,180,0.098,1
+SKU1261,QuickChoice Health Drinks Select 500g,QuickChoice,Budget,Beverages,Health Drinks,40.01,32.77,500,0,180,0.063,1
+SKU1262,ValueCart Health Drinks Box 200g,ValueCart,Budget,Beverages,Health Drinks,92.63,75.72,750,0,180,0.024,1
+SKU1263,LuxeCart Health Drinks Box 200g,LuxeCart,Premium,Beverages,Health Drinks,104.75,99.14,1000,0,90,0.018,1
+SKU1264,PureHome Health Drinks Select 400g,PureHome,Mid,Beverages,Health Drinks,70.0,62.28,750,0,180,0.035,1
+SKU1265,ValueCart Health Drinks Select 400g,ValueCart,Budget,Beverages,Health Drinks,93.33,90.9,500,0,365,0.067,1
+SKU1266,FreshMart Water Bundle 400g,FreshMart,Budget,Beverages,Water,120.41,109.28,2000,0,180,0.017,1
+SKU1267,NatureFresh Water Fresh 200g,NatureFresh,Mid,Beverages,Water,80.9,77.57,1000,0,180,0.018,1
+SKU1268,ValueCart Water Pack 500g,ValueCart,Budget,Beverages,Water,73.91,66.6,1000,0,365,0.009,1
+SKU1269,ValueCart Water Select 400g,ValueCart,Budget,Beverages,Water,92.15,86.4,750,0,365,0.021,1
+SKU1270,NatureFresh Water Box 100g,NatureFresh,Mid,Beverages,Water,67.46,58.75,1000,0,365,0.036,1
+SKU1271,FineChoice Water Box 500g,FineChoice,Premium,Beverages,Water,147.26,131.3,100,0,90,0.004,1
+SKU1272,QuickChoice Rice Fresh 500g,QuickChoice,Budget,Staples & Grains,Rice,176.73,155.92,250,0,180,0.07,1
+SKU1273,PremiumOrg Rice Box 400g,PremiumOrg,Premium,Staples & Grains,Rice,140.71,137.66,750,0,365,0.077,1
+SKU1274,HomeFirst Rice Select 400g,HomeFirst,Budget,Staples & Grains,Rice,185.49,172.06,750,0,180,0.082,1
+SKU1275,PremiumOrg Rice Bundle 100g,PremiumOrg,Premium,Staples & Grains,Rice,169.5,165.5,750,0,365,0.071,1
+SKU1276,GourmetSelect Rice Select 400g,GourmetSelect,Premium,Staples & Grains,Rice,164.17,139.18,500,0,365,0.065,1
+SKU1277,ValueCart Rice Box 500g,ValueCart,Budget,Staples & Grains,Rice,149.01,136.08,1500,0,90,0.027,1
+SKU1278,FineChoice Atta & Flour Pack 500g,FineChoice,Premium,Staples & Grains,Atta & Flour,146.78,142.48,200,0,90,0.038,1
+SKU1279,QuickChoice Atta & Flour Fresh 200g,QuickChoice,Budget,Staples & Grains,Atta & Flour,100.76,88.1,500,0,180,0.036,1
+SKU1280,FreshZone Atta & Flour Fresh 100g,FreshZone,Mid,Staples & Grains,Atta & Flour,241.98,224.33,500,0,365,0.065,1
+SKU1281,ValueCart Atta & Flour Select 400g,ValueCart,Budget,Staples & Grains,Atta & Flour,203.25,174.08,250,0,180,0.041,1
+SKU1282,PremiumOrg Atta & Flour Select 300g,PremiumOrg,Premium,Staples & Grains,Atta & Flour,190.25,175.35,750,0,365,0.043,1
+SKU1283,GoodLife Atta & Flour Bundle 500g,GoodLife,Mid,Staples & Grains,Atta & Flour,168.73,144.05,750,0,180,0.043,1
+SKU1284,PureHome Dal & Pulses Bundle 400g,PureHome,Mid,Staples & Grains,Dal & Pulses,128.18,110.59,750,0,180,0.014,1
+SKU1285,HomeFirst Dal & Pulses Fresh 400g,HomeFirst,Budget,Staples & Grains,Dal & Pulses,137.94,130.67,250,0,180,-0.008,1
+SKU1286,FreshMart Dal & Pulses Bundle 400g,FreshMart,Budget,Staples & Grains,Dal & Pulses,105.31,96.68,2000,0,90,0.022,1
+SKU1287,HomeFirst Dal & Pulses Bundle 500g,HomeFirst,Budget,Staples & Grains,Dal & Pulses,143.32,132.62,250,0,90,0.002,1
+SKU1288,FreshZone Dal & Pulses Box 200g,FreshZone,Mid,Staples & Grains,Dal & Pulses,122.0,98.71,500,0,365,0.079,1
+SKU1289,FreshMart Dal & Pulses Fresh 300g,FreshMart,Budget,Staples & Grains,Dal & Pulses,257.67,239.41,200,0,365,0.069,1
+SKU1290,NatureFresh Cooking Oil Select 200g,NatureFresh,Mid,Staples & Grains,Cooking Oil,218.2,190.54,2000,0,180,0.04,1
+SKU1291,OrganicPlus Cooking Oil Bundle 300g,OrganicPlus,Mid,Staples & Grains,Cooking Oil,178.79,163.82,200,0,365,0.049,1
+SKU1292,FreshZone Cooking Oil Pack 200g,FreshZone,Mid,Staples & Grains,Cooking Oil,132.8,116.23,250,0,90,0.065,1
+SKU1293,LuxeCart Cooking Oil Fresh 200g,LuxeCart,Premium,Staples & Grains,Cooking Oil,124.17,120.27,750,0,90,0.018,1
+SKU1294,HomeFirst Cooking Oil Select 100g,HomeFirst,Budget,Staples & Grains,Cooking Oil,165.67,160.22,1000,0,180,0.026,1
+SKU1295,FreshZone Cooking Oil Select 400g,FreshZone,Mid,Staples & Grains,Cooking Oil,220.38,211.58,250,0,365,0.026,1
+SKU1296,GoodLife Sugar & Salt Pack 300g,GoodLife,Mid,Staples & Grains,Sugar & Salt,268.56,222.7,2000,0,365,0.089,1
+SKU1297,DailyBasket Sugar & Salt Pack 300g,DailyBasket,Budget,Staples & Grains,Sugar & Salt,106.47,100.33,500,0,90,0.0,1
+SKU1298,PureHome Sugar & Salt Fresh 500g,PureHome,Mid,Staples & Grains,Sugar & Salt,202.59,174.03,1500,0,365,0.005,1
+SKU1299,DailyBasket Sugar & Salt Fresh 300g,DailyBasket,Budget,Staples & Grains,Sugar & Salt,143.12,138.6,100,0,180,0.009,1
+SKU1300,ValueCart Sugar & Salt Bundle 300g,ValueCart,Budget,Staples & Grains,Sugar & Salt,151.13,129.12,100,0,180,0.019,1
+SKU1301,GoodLife Sugar & Salt Pack 100g,GoodLife,Mid,Staples & Grains,Sugar & Salt,177.38,156.76,250,0,180,0.031,1
+SKU1302,OrganicPlus Spices Pack 300g,OrganicPlus,Mid,Staples & Grains,Spices,134.28,116.31,500,0,90,0.088,1
+SKU1303,LuxeCart Spices Box 400g,LuxeCart,Premium,Staples & Grains,Spices,163.29,152.61,1000,0,180,0.087,1
+SKU1304,PureHome Spices Select 200g,PureHome,Mid,Staples & Grains,Spices,130.53,122.32,200,0,365,0.077,1
+SKU1305,OrganicPlus Spices Pack 500g,OrganicPlus,Mid,Staples & Grains,Spices,146.74,120.36,500,0,365,0.007,1
+SKU1306,GoodLife Spices Bundle 500g,GoodLife,Mid,Staples & Grains,Spices,212.01,186.47,500,0,365,0.057,1
+SKU1307,NatureFresh Spices Select 400g,NatureFresh,Mid,Staples & Grains,Spices,179.87,170.08,2000,0,90,0.047,1
+SKU1308,PureHome Skincare Select 100g,PureHome,Mid,Personal Care,Skincare,375.22,337.92,750,0,365,0.048,1
+SKU1309,QuickChoice Skincare Pack 200g,QuickChoice,Budget,Personal Care,Skincare,252.48,228.27,100,0,180,0.052,1
+SKU1310,FreshMart Skincare Select 100g,FreshMart,Budget,Personal Care,Skincare,359.53,348.11,200,0,180,0.063,1
+SKU1311,ValueCart Skincare Box 200g,ValueCart,Budget,Personal Care,Skincare,168.73,158.24,1500,0,180,0.031,1
+SKU1312,LuxeCart Skincare Fresh 400g,LuxeCart,Premium,Personal Care,Skincare,314.17,272.58,250,0,365,0.081,1
+SKU1313,GourmetSelect Skincare Box 500g,GourmetSelect,Premium,Personal Care,Skincare,365.43,318.2,250,0,365,0.035,1
+SKU1314,GourmetSelect Hair Care Pack 300g,GourmetSelect,Premium,Personal Care,Hair Care,165.78,146.44,1500,0,365,0.068,1
+SKU1315,DailyBasket Hair Care Box 400g,DailyBasket,Budget,Personal Care,Hair Care,253.42,218.53,750,0,90,0.054,1
+SKU1316,GourmetSelect Hair Care Pack 400g,GourmetSelect,Premium,Personal Care,Hair Care,314.11,286.06,100,0,90,0.033,1
+SKU1317,FreshMart Hair Care Select 100g,FreshMart,Budget,Personal Care,Hair Care,397.35,349.81,100,0,90,0.045,1
+SKU1318,PureHome Hair Care Fresh 200g,PureHome,Mid,Personal Care,Hair Care,259.93,233.2,100,0,90,0.088,1
+SKU1319,OrganicPlus Hair Care Box 500g,OrganicPlus,Mid,Personal Care,Hair Care,355.99,305.23,1000,0,90,0.067,1
+SKU1320,DailyBasket Oral Care Select 200g,DailyBasket,Budget,Personal Care,Oral Care,435.13,380.5,750,0,90,0.061,1
+SKU1321,FreshZone Oral Care Box 400g,FreshZone,Mid,Personal Care,Oral Care,360.09,324.1,100,0,180,0.103,1
+SKU1322,LuxeCart Oral Care Select 300g,LuxeCart,Premium,Personal Care,Oral Care,292.38,270.55,1500,0,90,0.117,1
+SKU1323,DailyBasket Oral Care Select 400g,DailyBasket,Budget,Personal Care,Oral Care,342.22,288.62,500,0,180,0.114,1
+SKU1324,FineChoice Oral Care Fresh 100g,FineChoice,Premium,Personal Care,Oral Care,257.57,232.13,1500,0,365,0.038,1
+SKU1325,PureHome Oral Care Box 300g,PureHome,Mid,Personal Care,Oral Care,317.52,265.64,200,0,180,0.077,1
+SKU1326,GourmetSelect Body Wash Select 200g,GourmetSelect,Premium,Personal Care,Body Wash,296.49,239.94,1500,0,365,0.104,1
+SKU1327,NatureFresh Body Wash Pack 200g,NatureFresh,Mid,Personal Care,Body Wash,339.3,320.58,500,0,180,0.04,1
+SKU1328,QuickChoice Body Wash Bundle 100g,QuickChoice,Budget,Personal Care,Body Wash,274.25,229.86,500,0,365,0.036,1
+SKU1329,ValueCart Body Wash Box 500g,ValueCart,Budget,Personal Care,Body Wash,344.24,319.0,1500,0,90,0.087,1
+SKU1330,OrganicPlus Body Wash Fresh 400g,OrganicPlus,Mid,Personal Care,Body Wash,273.46,245.04,1000,0,180,0.072,1
+SKU1331,HomeFirst Body Wash Fresh 400g,HomeFirst,Budget,Personal Care,Body Wash,385.61,315.33,2000,0,180,0.059,1
+SKU1332,PremiumOrg Deodorants Bundle 400g,PremiumOrg,Premium,Personal Care,Deodorants,281.7,227.68,500,0,365,0.102,1
+SKU1333,QuickChoice Deodorants Select 500g,QuickChoice,Budget,Personal Care,Deodorants,133.09,120.35,1500,0,180,0.066,1
+SKU1334,QuickChoice Deodorants Box 400g,QuickChoice,Budget,Personal Care,Deodorants,222.5,200.82,500,0,180,0.05,1
+SKU1335,OrganicPlus Deodorants Bundle 400g,OrganicPlus,Mid,Personal Care,Deodorants,311.6,303.49,2000,0,180,0.043,1
+SKU1336,QuickChoice Deodorants Box 200g,QuickChoice,Budget,Personal Care,Deodorants,455.51,423.47,2000,0,90,0.11,1
+SKU1337,EliteGrocers Deodorants Pack 500g,EliteGrocers,Premium,Personal Care,Deodorants,381.99,307.92,200,0,365,0.111,1
+SKU1338,FreshMart Feminine Hygiene Fresh 200g,FreshMart,Budget,Personal Care,Feminine Hygiene,118.07,112.36,500,0,90,0.082,1
+SKU1339,NatureFresh Feminine Hygiene Box 500g,NatureFresh,Mid,Personal Care,Feminine Hygiene,181.66,160.24,100,0,365,0.034,1
+SKU1340,FreshZone Feminine Hygiene Fresh 400g,FreshZone,Mid,Personal Care,Feminine Hygiene,409.28,328.58,1500,0,90,0.099,1
+SKU1341,QuickChoice Feminine Hygiene Select 300g,QuickChoice,Budget,Personal Care,Feminine Hygiene,364.93,293.07,1500,0,90,0.109,1
+SKU1342,FreshMart Feminine Hygiene Select 200g,FreshMart,Budget,Personal Care,Feminine Hygiene,507.1,427.68,750,0,180,0.099,1
+SKU1343,ValueCart Feminine Hygiene Pack 300g,ValueCart,Budget,Personal Care,Feminine Hygiene,270.13,262.75,2000,0,365,0.045,1
+SKU1344,DailyBasket Cleaning Liquids Bundle 100g,DailyBasket,Budget,Household Essentials,Cleaning Liquids,140.98,129.37,100,0,90,0.074,1
+SKU1345,PureHome Cleaning Liquids Select 400g,PureHome,Mid,Household Essentials,Cleaning Liquids,188.71,152.87,100,0,365,0.076,1
+SKU1346,ValueCart Cleaning Liquids Fresh 300g,ValueCart,Budget,Household Essentials,Cleaning Liquids,160.26,144.53,200,0,365,0.088,1
+SKU1347,FineChoice Cleaning Liquids Box 500g,FineChoice,Premium,Household Essentials,Cleaning Liquids,238.74,211.43,100,0,90,0.011,1
+SKU1348,OrganicPlus Cleaning Liquids Select 500g,OrganicPlus,Mid,Household Essentials,Cleaning Liquids,158.58,145.65,250,0,180,0.085,1
+SKU1349,DailyBasket Cleaning Liquids Select 200g,DailyBasket,Budget,Household Essentials,Cleaning Liquids,171.02,159.97,1500,0,90,0.08,1
+SKU1350,HomeFirst Detergents Box 500g,HomeFirst,Budget,Household Essentials,Detergents,134.3,127.62,1500,0,365,0.015,1
+SKU1351,PremiumOrg Detergents Fresh 200g,PremiumOrg,Premium,Household Essentials,Detergents,224.21,211.27,200,0,365,0.072,1
+SKU1352,OrganicPlus Detergents Pack 100g,OrganicPlus,Mid,Household Essentials,Detergents,137.23,120.58,200,0,180,0.064,1
+SKU1353,FreshZone Detergents Select 400g,FreshZone,Mid,Household Essentials,Detergents,206.42,201.14,1000,0,90,0.025,1
+SKU1354,PureHome Detergents Fresh 200g,PureHome,Mid,Household Essentials,Detergents,282.22,243.85,1500,0,180,0.035,1
+SKU1355,HomeFirst Detergents Fresh 100g,HomeFirst,Budget,Household Essentials,Detergents,92.86,87.19,750,0,90,0.046,1
+SKU1356,NatureFresh Dishwash Bundle 200g,NatureFresh,Mid,Household Essentials,Dishwash,262.5,227.95,250,0,365,0.095,1
+SKU1357,QuickChoice Dishwash Pack 100g,QuickChoice,Budget,Household Essentials,Dishwash,199.5,159.79,750,0,180,0.051,1
+SKU1358,QuickChoice Dishwash Pack 200g,QuickChoice,Budget,Household Essentials,Dishwash,126.7,103.35,1500,0,180,0.061,1
+SKU1359,FreshZone Dishwash Fresh 100g,FreshZone,Mid,Household Essentials,Dishwash,190.67,153.44,1000,0,365,0.07,1
+SKU1360,HomeFirst Dishwash Bundle 400g,HomeFirst,Budget,Household Essentials,Dishwash,222.59,178.57,1500,0,180,0.092,1
+SKU1361,FreshZone Dishwash Box 500g,FreshZone,Mid,Household Essentials,Dishwash,144.05,128.75,1500,0,90,0.058,1
+SKU1362,QuickChoice Floor Cleaners Bundle 400g,QuickChoice,Budget,Household Essentials,Floor Cleaners,209.42,173.04,250,0,180,0.061,1
+SKU1363,QuickChoice Floor Cleaners Fresh 100g,QuickChoice,Budget,Household Essentials,Floor Cleaners,267.53,231.41,500,0,365,0.093,1
+SKU1364,FreshZone Floor Cleaners Select 200g,FreshZone,Mid,Household Essentials,Floor Cleaners,158.52,139.88,250,0,180,0.093,1
+SKU1365,ValueCart Floor Cleaners Bundle 500g,ValueCart,Budget,Household Essentials,Floor Cleaners,133.74,116.14,1000,0,180,0.098,1
+SKU1366,HomeFirst Floor Cleaners Box 300g,HomeFirst,Budget,Household Essentials,Floor Cleaners,178.48,153.09,500,0,180,0.084,1
+SKU1367,ValueCart Floor Cleaners Bundle 300g,ValueCart,Budget,Household Essentials,Floor Cleaners,187.89,175.17,2000,0,365,0.059,1
+SKU1368,OrganicPlus Fresheners Fresh 300g,OrganicPlus,Mid,Household Essentials,Fresheners,241.68,228.86,1500,0,180,0.04,1
+SKU1369,HomeFirst Fresheners Box 500g,HomeFirst,Budget,Household Essentials,Fresheners,176.82,173.2,250,0,365,0.08,1
+SKU1370,NatureFresh Fresheners Fresh 200g,NatureFresh,Mid,Household Essentials,Fresheners,162.89,143.17,750,0,365,0.0,1
+SKU1371,ValueCart Fresheners Fresh 200g,ValueCart,Budget,Household Essentials,Fresheners,132.57,121.17,500,0,180,0.054,1
+SKU1372,PureHome Fresheners Fresh 100g,PureHome,Mid,Household Essentials,Fresheners,99.28,87.45,2000,0,365,0.092,1
+SKU1373,FreshZone Fresheners Fresh 500g,FreshZone,Mid,Household Essentials,Fresheners,118.18,95.33,1000,0,365,0.074,1
+SKU1374,EliteGrocers Tissues & Wipes Select 100g,EliteGrocers,Premium,Household Essentials,Tissues & Wipes,117.91,96.65,500,0,365,0.045,1
+SKU1375,GoodLife Tissues & Wipes Select 100g,GoodLife,Mid,Household Essentials,Tissues & Wipes,171.55,154.63,1500,0,180,0.014,1
+SKU1376,LuxeCart Tissues & Wipes Pack 100g,LuxeCart,Premium,Household Essentials,Tissues & Wipes,107.14,87.61,500,0,365,0.018,1
+SKU1377,FreshZone Tissues & Wipes Select 500g,FreshZone,Mid,Household Essentials,Tissues & Wipes,45.3,38.04,1000,0,180,0.091,1
+SKU1378,FreshZone Tissues & Wipes Select 200g,FreshZone,Mid,Household Essentials,Tissues & Wipes,182.19,157.06,100,0,180,0.036,1
+SKU1379,ValueCart Tissues & Wipes Pack 100g,ValueCart,Budget,Household Essentials,Tissues & Wipes,280.78,266.64,250,0,180,0.001,1
+SKU1380,ValueCart Diapers Box 500g,ValueCart,Budget,Baby Care,Diapers,618.26,548.35,2000,0,90,0.096,1
+SKU1381,PureHome Diapers Bundle 100g,PureHome,Mid,Baby Care,Diapers,434.61,371.18,200,0,90,0.039,1
+SKU1382,GourmetSelect Diapers Box 200g,GourmetSelect,Premium,Baby Care,Diapers,324.38,289.63,250,0,180,0.13,1
+SKU1383,PureHome Diapers Box 400g,PureHome,Mid,Baby Care,Diapers,808.65,738.59,250,0,365,0.037,1
+SKU1384,PureHome Diapers Pack 500g,PureHome,Mid,Baby Care,Diapers,477.79,458.18,2000,0,365,0.105,1
+SKU1385,NatureFresh Diapers Box 200g,NatureFresh,Mid,Baby Care,Diapers,496.07,421.71,200,0,365,0.051,1
+SKU1386,HomeFirst Diapers Box 300g,HomeFirst,Budget,Baby Care,Diapers,451.0,387.26,2000,0,90,0.049,1
+SKU1387,ValueCart Diapers Select 300g,ValueCart,Budget,Baby Care,Diapers,465.69,422.59,1500,0,365,0.086,1
+SKU1388,QuickChoice Baby Food Fresh 500g,QuickChoice,Budget,Baby Care,Baby Food,398.49,331.17,750,0,365,0.037,1
+SKU1389,GoodLife Baby Food Bundle 100g,GoodLife,Mid,Baby Care,Baby Food,436.44,367.89,200,0,90,0.082,1
+SKU1390,DailyBasket Baby Food Select 400g,DailyBasket,Budget,Baby Care,Baby Food,667.93,584.63,250,0,365,0.074,1
+SKU1391,DailyBasket Baby Food Fresh 500g,DailyBasket,Budget,Baby Care,Baby Food,633.98,586.32,250,0,365,0.046,1
+SKU1392,QuickChoice Baby Food Box 200g,QuickChoice,Budget,Baby Care,Baby Food,197.14,168.87,2000,0,365,0.048,1
+SKU1393,QuickChoice Baby Food Pack 400g,QuickChoice,Budget,Baby Care,Baby Food,284.77,234.81,1500,0,365,0.094,1
+SKU1394,PureHome Baby Food Fresh 400g,PureHome,Mid,Baby Care,Baby Food,367.64,321.62,2000,0,180,0.071,1
+SKU1395,HomeFirst Baby Food Pack 200g,HomeFirst,Budget,Baby Care,Baby Food,593.14,505.7,750,0,90,0.033,1
+SKU1396,GoodLife Baby Wipes Fresh 500g,GoodLife,Mid,Baby Care,Baby Wipes,637.34,595.05,2000,0,365,0.052,1
+SKU1397,FreshZone Baby Wipes Pack 300g,FreshZone,Mid,Baby Care,Baby Wipes,564.97,530.8,1000,0,365,0.032,1
+SKU1398,GourmetSelect Baby Wipes Fresh 500g,GourmetSelect,Premium,Baby Care,Baby Wipes,321.42,269.78,1500,0,90,0.04,1
+SKU1399,GoodLife Baby Wipes Bundle 100g,GoodLife,Mid,Baby Care,Baby Wipes,400.97,353.24,1000,0,90,0.095,1
+SKU1400,NatureFresh Baby Wipes Box 200g,NatureFresh,Mid,Baby Care,Baby Wipes,534.4,505.5,1000,0,365,0.054,1
+SKU1401,PureHome Baby Wipes Box 500g,PureHome,Mid,Baby Care,Baby Wipes,438.37,361.68,500,0,90,0.102,1
+SKU1402,EliteGrocers Baby Wipes Bundle 500g,EliteGrocers,Premium,Baby Care,Baby Wipes,420.67,357.82,250,0,180,0.116,1
+SKU1403,PremiumOrg Baby Wipes Bundle 500g,PremiumOrg,Premium,Baby Care,Baby Wipes,422.5,358.33,200,0,90,0.097,1
+SKU1404,LuxeCart Baby Lotion Pack 300g,LuxeCart,Premium,Baby Care,Baby Lotion,622.57,595.22,250,0,365,0.05,1
+SKU1405,FineChoice Baby Lotion Box 300g,FineChoice,Premium,Baby Care,Baby Lotion,548.05,520.17,1500,0,180,0.031,1
+SKU1406,QuickChoice Baby Lotion Fresh 400g,QuickChoice,Budget,Baby Care,Baby Lotion,429.26,378.33,200,0,180,0.039,1
+SKU1407,OrganicPlus Baby Lotion Bundle 400g,OrganicPlus,Mid,Baby Care,Baby Lotion,512.92,498.07,1000,0,365,0.072,1
+SKU1408,FreshMart Baby Lotion Fresh 300g,FreshMart,Budget,Baby Care,Baby Lotion,305.35,291.0,1500,0,90,0.119,1
+SKU1409,FineChoice Baby Lotion Fresh 300g,FineChoice,Premium,Baby Care,Baby Lotion,401.21,344.28,750,0,180,0.056,1
+SKU1410,GoodLife Baby Lotion Select 400g,GoodLife,Mid,Baby Care,Baby Lotion,608.05,572.72,100,0,90,0.068,1
+SKU1411,ValueCart Baby Lotion Pack 100g,ValueCart,Budget,Baby Care,Baby Lotion,265.15,256.48,250,0,180,0.092,1
+SKU1412,PureHome Baby Accessories Box 200g,PureHome,Mid,Baby Care,Baby Accessories,549.75,527.09,750,0,90,0.071,1
+SKU1413,PremiumOrg Baby Accessories Pack 300g,PremiumOrg,Premium,Baby Care,Baby Accessories,196.02,165.65,1000,0,365,0.059,1
+SKU1414,FineChoice Baby Accessories Pack 400g,FineChoice,Premium,Baby Care,Baby Accessories,693.25,632.67,500,0,180,0.125,1
+SKU1415,NatureFresh Baby Accessories Pack 200g,NatureFresh,Mid,Baby Care,Baby Accessories,398.29,352.82,250,0,365,0.117,1
+SKU1416,ValueCart Baby Accessories Pack 100g,ValueCart,Budget,Baby Care,Baby Accessories,522.53,483.45,200,0,180,0.079,1
+SKU1417,PureHome Baby Accessories Pack 200g,PureHome,Mid,Baby Care,Baby Accessories,485.03,421.47,200,0,90,0.073,1
+SKU1418,QuickChoice Baby Accessories Box 400g,QuickChoice,Budget,Baby Care,Baby Accessories,489.78,460.01,250,0,365,0.032,1
+SKU1419,FineChoice Baby Accessories Pack 500g,FineChoice,Premium,Baby Care,Baby Accessories,510.51,460.17,250,0,180,0.093,1
+SKU1420,DailyBasket Dog Food Box 400g,DailyBasket,Budget,Pet Care,Dog Food,151.13,137.66,2000,0,90,0.036,1
+SKU1421,FreshMart Dog Food Box 100g,FreshMart,Budget,Pet Care,Dog Food,303.87,275.34,1500,0,180,0.108,1
+SKU1422,PremiumOrg Dog Food Box 200g,PremiumOrg,Premium,Pet Care,Dog Food,275.06,233.76,200,0,90,0.063,1
+SKU1423,FreshZone Dog Food Select 300g,FreshZone,Mid,Pet Care,Dog Food,246.17,231.45,100,0,365,0.012,1
+SKU1424,FineChoice Dog Food Select 500g,FineChoice,Premium,Pet Care,Dog Food,226.8,202.24,1500,0,180,0.101,1
+SKU1425,GoodLife Dog Food Fresh 400g,GoodLife,Mid,Pet Care,Dog Food,305.9,250.93,2000,0,365,0.037,1
+SKU1426,FreshZone Dog Food Pack 300g,FreshZone,Mid,Pet Care,Dog Food,210.56,203.84,250,0,180,0.065,1
+SKU1427,EliteGrocers Dog Food Fresh 300g,EliteGrocers,Premium,Pet Care,Dog Food,373.57,335.59,250,0,180,0.031,1
+SKU1428,GourmetSelect Dog Food Pack 500g,GourmetSelect,Premium,Pet Care,Dog Food,328.37,266.69,750,0,90,0.011,1
+SKU1429,FreshMart Dog Food Fresh 500g,FreshMart,Budget,Pet Care,Dog Food,310.79,264.66,1500,0,180,0.07,1
+SKU1430,NatureFresh Cat Food Select 500g,NatureFresh,Mid,Pet Care,Cat Food,369.79,336.84,750,0,90,0.077,1
+SKU1431,HomeFirst Cat Food Box 200g,HomeFirst,Budget,Pet Care,Cat Food,140.52,125.98,1500,0,365,0.062,1
+SKU1432,NatureFresh Cat Food Bundle 400g,NatureFresh,Mid,Pet Care,Cat Food,186.1,173.33,500,0,90,0.015,1
+SKU1433,ValueCart Cat Food Pack 400g,ValueCart,Budget,Pet Care,Cat Food,332.03,302.22,100,0,180,0.018,1
+SKU1434,GoodLife Cat Food Pack 100g,GoodLife,Mid,Pet Care,Cat Food,231.07,214.3,100,0,90,0.07,1
+SKU1435,OrganicPlus Cat Food Select 500g,OrganicPlus,Mid,Pet Care,Cat Food,240.34,226.14,750,0,90,0.039,1
+SKU1436,QuickChoice Cat Food Pack 100g,QuickChoice,Budget,Pet Care,Cat Food,175.78,151.22,1500,0,180,0.046,1
+SKU1437,OrganicPlus Cat Food Select 100g,OrganicPlus,Mid,Pet Care,Cat Food,210.76,187.43,1000,0,90,0.067,1
+SKU1438,FreshZone Cat Food Box 300g,FreshZone,Mid,Pet Care,Cat Food,375.56,311.08,200,0,365,0.058,1
+SKU1439,NatureFresh Cat Food Box 500g,NatureFresh,Mid,Pet Care,Cat Food,330.06,264.2,100,0,90,0.083,1
+SKU1440,QuickChoice Pet Treats Fresh 200g,QuickChoice,Budget,Pet Care,Pet Treats,305.01,253.83,100,0,365,0.031,1
+SKU1441,LuxeCart Pet Treats Box 300g,LuxeCart,Premium,Pet Care,Pet Treats,243.26,205.48,1000,0,180,0.06,1
+SKU1442,EliteGrocers Pet Treats Bundle 100g,EliteGrocers,Premium,Pet Care,Pet Treats,299.91,267.03,100,0,90,0.07,1
+SKU1443,HomeFirst Pet Treats Pack 400g,HomeFirst,Budget,Pet Care,Pet Treats,383.32,311.41,2000,0,180,0.021,1
+SKU1444,OrganicPlus Pet Treats Bundle 100g,OrganicPlus,Mid,Pet Care,Pet Treats,232.9,209.51,100,0,180,0.018,1
+SKU1445,HomeFirst Pet Treats Bundle 500g,HomeFirst,Budget,Pet Care,Pet Treats,287.16,242.27,1000,0,365,0.079,1
+SKU1446,FineChoice Pet Treats Select 200g,FineChoice,Premium,Pet Care,Pet Treats,433.79,358.79,1500,0,90,0.053,1
+SKU1447,QuickChoice Pet Treats Pack 300g,QuickChoice,Budget,Pet Care,Pet Treats,347.47,278.07,1500,0,365,0.09,1
+SKU1448,NatureFresh Pet Treats Box 500g,NatureFresh,Mid,Pet Care,Pet Treats,244.33,238.7,1500,0,180,0.079,1
+SKU1449,FineChoice Pet Treats Bundle 100g,FineChoice,Premium,Pet Care,Pet Treats,340.49,275.08,500,0,365,0.046,1
+SKU1450,OrganicPlus Pet Accessories Fresh 100g,OrganicPlus,Mid,Pet Care,Pet Accessories,162.5,146.99,250,0,365,0.019,1
+SKU1451,GourmetSelect Pet Accessories Select 500g,GourmetSelect,Premium,Pet Care,Pet Accessories,283.96,230.35,250,0,90,0.029,1
+SKU1452,QuickChoice Pet Accessories Fresh 300g,QuickChoice,Budget,Pet Care,Pet Accessories,340.4,291.81,750,0,90,0.064,1
+SKU1453,DailyBasket Pet Accessories Box 500g,DailyBasket,Budget,Pet Care,Pet Accessories,320.87,262.99,200,0,90,0.091,1
+SKU1454,OrganicPlus Pet Accessories Fresh 100g,OrganicPlus,Mid,Pet Care,Pet Accessories,339.58,304.42,500,0,180,0.076,1
+SKU1455,QuickChoice Pet Accessories Pack 100g,QuickChoice,Budget,Pet Care,Pet Accessories,357.71,296.32,750,0,365,0.035,1
+SKU1456,NatureFresh Pet Accessories Box 300g,NatureFresh,Mid,Pet Care,Pet Accessories,327.29,270.57,500,0,180,0.059,1
+SKU1457,FreshMart Pet Accessories Bundle 300g,FreshMart,Budget,Pet Care,Pet Accessories,324.88,307.86,250,0,90,0.028,1
+SKU1458,LuxeCart Pet Accessories Select 500g,LuxeCart,Premium,Pet Care,Pet Accessories,306.86,259.29,2000,0,90,0.067,1
+SKU1459,FineChoice Pet Accessories Pack 100g,FineChoice,Premium,Pet Care,Pet Accessories,202.22,164.02,500,0,90,0.102,1
