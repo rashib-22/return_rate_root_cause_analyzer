@@ -54,8 +54,8 @@ SELECT
     r.refund_mode,
     ROUND(r.total_loss / NULLIF(o.total_paid, 0) * 100, 2)  AS loss_pct_of_order
 FROM returns r
-JOIN orders    o ON r.order_id    = o.order_id
-JOIN products  p ON o.sku_id      = p.sku_id
+JOIN orders o ON r.order_id = o.order_id
+JOIN products p ON o.sku_id = p.sku_id
 JOIN customers c ON o.customer_id = c.customer_id;
 
 
@@ -66,12 +66,12 @@ DROP VIEW IF EXISTS vw_category_kpis;
 CREATE VIEW vw_category_kpis AS
 SELECT
     o.category,
-    COUNT(o.order_id)                                         AS total_orders,
-    SUM(o.is_returned)                                        AS total_returns,
+    COUNT(o.order_id) AS total_orders,
+    SUM(o.is_returned) AS total_returns,
     ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2) AS return_rate_pct,
-    ROUND(SUM(o.total_paid) / 1000, 0)                       AS revenue_k,
-    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0)          AS loss_k,
-    ROUND(COALESCE(AVG(r.total_loss), 0), 0)                  AS avg_loss
+    ROUND(SUM(o.total_paid) / 1000, 0) AS revenue_k,
+    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0) AS loss_k,
+    ROUND(COALESCE(AVG(r.total_loss), 0), 0) AS avg_loss
 FROM orders o
 LEFT JOIN returns r ON o.order_id = r.order_id
 GROUP BY o.category;
@@ -82,15 +82,13 @@ DROP VIEW IF EXISTS vw_city_kpis;
 CREATE VIEW vw_city_kpis AS
 SELECT
     o.city,
-    COUNT(o.order_id)                                         AS total_orders,
-    SUM(o.is_returned)                                        AS total_returns,
+    COUNT(o.order_id) AS total_orders,
+    SUM(o.is_returned) AS total_returns,
     ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2) AS return_rate_pct,
-    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0)          AS total_loss_k
+    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0) AS total_loss_k
 FROM orders o
 LEFT JOIN returns r ON o.order_id = r.order_id
 GROUP BY o.city;
-
-
 
 -- VIEW 4: vw_monthly_trend  
 
@@ -99,10 +97,10 @@ CREATE VIEW vw_monthly_trend AS
 SELECT
     o.order_month,
     o.order_year,
-    COUNT(o.order_id)                                         AS orders,
-    SUM(o.is_returned)                                        AS returns,
+    COUNT(o.order_id) AS orders,
+    SUM(o.is_returned) AS returns,
     ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2) AS return_rate_pct,
-    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0)          AS loss_k
+    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0) AS loss_k
 FROM orders o
 LEFT JOIN returns r ON o.order_id = r.order_id
 GROUP BY o.order_month, o.order_year
@@ -115,17 +113,16 @@ DROP VIEW IF EXISTS vw_slot_kpis;
 CREATE VIEW vw_slot_kpis AS
 SELECT
     o.delivery_slot,
-    COUNT(o.order_id)                                                   AS orders,
-    SUM(o.sla_breach)                                                   AS sla_breaches,
-    ROUND(SUM(o.sla_breach) * 100.0 / COUNT(o.order_id), 2)           AS breach_pct,
-    SUM(o.is_returned)                                                  AS returns,
-    ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2)          AS return_rate_pct,
-    ROUND(AVG(o.delivery_minutes), 1)                                   AS avg_delivery_mins,
-    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0)                   AS loss_k
+    COUNT(o.order_id) AS orders,
+    SUM(o.sla_breach) AS sla_breaches,
+    ROUND(SUM(o.sla_breach) * 100.0 / COUNT(o.order_id), 2) AS breach_pct,
+    SUM(o.is_returned) AS returns,
+    ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2) AS return_rate_pct,
+    ROUND(AVG(o.delivery_minutes), 1) AS avg_delivery_mins,
+    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0) AS loss_k
 FROM orders o
 LEFT JOIN returns r ON o.order_id = r.order_id
 GROUP BY o.delivery_slot;
-
 
 -- VIEW 6: vw_segment_kpis  
 
@@ -133,16 +130,14 @@ DROP VIEW IF EXISTS vw_segment_kpis;
 CREATE VIEW vw_segment_kpis AS
 SELECT
     o.customer_segment,
-    COUNT(DISTINCT o.customer_id)                                       AS unique_customers,
-    COUNT(o.order_id)                                                   AS orders,
-    SUM(o.is_returned)                                                  AS returns,
-    ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2)          AS return_rate_pct,
-    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0)                   AS loss_k
+    COUNT(DISTINCT o.customer_id) AS unique_customers,
+    COUNT(o.order_id) AS orders,
+    SUM(o.is_returned) AS returns,
+    ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2) AS return_rate_pct,
+    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0) AS loss_k
 FROM orders o
 LEFT JOIN returns r ON o.order_id = r.order_id
 GROUP BY o.customer_segment;
-
-
 
 -- VIEW 7: vw_sku_risk  
 
@@ -156,18 +151,16 @@ SELECT
     o.sub_category,
     o.brand_tier,
     p.is_perishable,
-    COUNT(o.order_id)                                                   AS orders,
-    SUM(o.is_returned)                                                  AS returns,
-    ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2)          AS return_rate_pct,
-    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 1)                   AS loss_k
+    COUNT(o.order_id) AS orders,
+    SUM(o.is_returned) AS returns,
+    ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2) AS return_rate_pct,
+    ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 1) AS loss_k
 FROM orders o
 JOIN products p ON o.sku_id = p.sku_id
 LEFT JOIN returns r ON o.order_id = r.order_id
 GROUP BY o.sku_id, p.product_name, p.brand, o.category,
          o.sub_category, o.brand_tier, p.is_perishable
 HAVING COUNT(o.order_id) >= 15;
-
-
 
 -- STORED PROCEDURES
 
@@ -182,10 +175,10 @@ BEGIN
         o.category,
         o.delivery_slot,
         o.customer_segment,
-        COUNT(o.order_id)                                              AS orders,
-        SUM(o.is_returned)                                             AS returns,
-        ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2)     AS return_rate_pct,
-        ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 1)              AS loss_k
+        COUNT(o.order_id) AS orders,
+        SUM(o.is_returned) AS returns,
+        ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2) AS return_rate_pct,
+        ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 1) AS loss_k
     FROM orders o
     LEFT JOIN returns r ON o.order_id = r.order_id
     WHERE o.city = p_city
@@ -193,7 +186,6 @@ BEGIN
     ORDER BY return_rate_pct DESC;
 END$$
 DELIMITER ;
-
 
 -- SP 2: Filter returns by date range
 -- USAGE : CALL sp_trend_by_period('2023-07-01', '2023-12-31');
@@ -204,10 +196,10 @@ CREATE PROCEDURE sp_trend_by_period(IN p_start DATE, IN p_end DATE)
 BEGIN
     SELECT
         o.order_month,
-        COUNT(o.order_id)                                              AS orders,
-        SUM(o.is_returned)                                             AS returns,
-        ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2)     AS return_rate_pct,
-        ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0)              AS loss_k
+        COUNT(o.order_id) AS orders,
+        SUM(o.is_returned) AS returns,
+        ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2) AS return_rate_pct,
+        ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 0) AS loss_k
     FROM orders o
     LEFT JOIN returns r ON o.order_id = r.order_id
     WHERE o.order_date BETWEEN p_start AND p_end
@@ -215,7 +207,6 @@ BEGIN
     ORDER BY o.order_month;
 END$$
 DELIMITER ;
-
 
 -- SP 3: High-risk SKUs for a given category
 -- USAGE : CALL sp_risky_skus('Fruits & Vegetables', 20);
@@ -228,10 +219,10 @@ BEGIN
         o.sku_id,
         p.product_name,
         o.sub_category,
-        COUNT(o.order_id)                                              AS orders,
-        SUM(o.is_returned)                                             AS returns,
-        ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2)     AS return_rate_pct,
-        ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 1)              AS loss_k
+        COUNT(o.order_id) AS orders,
+        SUM(o.is_returned) AS returns,
+        ROUND(SUM(o.is_returned) * 100.0 / COUNT(o.order_id), 2) AS return_rate_pct,
+        ROUND(COALESCE(SUM(r.total_loss), 0) / 1000, 1) AS loss_k
     FROM orders o
     JOIN products p ON o.sku_id = p.sku_id
     LEFT JOIN returns r ON o.order_id = r.order_id
@@ -251,10 +242,10 @@ CREATE VIEW vw_city_category_heatmap AS
 SELECT 
     o.city,
     o.category,
-    COUNT(o.order_id)                                      AS orders,
-    SUM(o.is_returned)                                     AS returns,
-    ROUND(SUM(o.is_returned)*100.0/COUNT(o.order_id),2)   AS return_rate_pct,
-    ROUND(COALESCE(SUM(r.total_loss),0)/1000,1)           AS loss_k
+    COUNT(o.order_id) AS orders,
+    SUM(o.is_returned) AS returns,
+    ROUND(SUM(o.is_returned)*100.0/COUNT(o.order_id),2) AS return_rate_pct,
+    ROUND(COALESCE(SUM(r.total_loss),0)/1000,1) AS loss_k
 FROM orders o
 LEFT JOIN returns r ON o.order_id = r.order_id
 GROUP BY o.city, o.category;
@@ -269,8 +260,8 @@ SELECT
     c.city,
     c.segment,
     c.tenure_days,
-    COUNT(r.return_id)              AS total_returns,
-    ROUND(SUM(r.total_loss),0)      AS loss_caused,
+    COUNT(r.return_id) AS total_returns,
+    ROUND(SUM(r.total_loss),0) AS loss_caused,
     CASE
         WHEN c.tenure_days < 90 
              AND COUNT(r.return_id) >= 3
@@ -280,7 +271,7 @@ SELECT
         WHEN COUNT(r.return_id) >= 5
             THEN 'SEND VOUCHER'
         ELSE 'MONITOR'
-    END                             AS intervention_type
+    END AS intervention_type
 FROM customers c
 JOIN returns r ON c.customer_id = r.customer_id
 GROUP BY c.customer_id, c.full_name,
@@ -297,9 +288,9 @@ SELECT
     c.city,
     c.segment,
     c.tenure_days,
-    COUNT(r.return_id)                 AS total_returns,
-    ROUND(SUM(r.total_loss), 0)        AS loss_caused,
-    COUNT(DISTINCT r.return_reason)    AS distinct_reasons,
+    COUNT(r.return_id) AS total_returns,
+    ROUND(SUM(r.total_loss), 0) AS loss_caused,
+    COUNT(DISTINCT r.return_reason) AS distinct_reasons,
     CASE
         WHEN c.segment = 'New'
              AND COUNT(r.return_id) >= 3
@@ -309,7 +300,7 @@ SELECT
         WHEN COUNT(r.return_id) >= 5
             THEN 'SEND VOUCHER'
         ELSE 'MONITOR'
-    END                                AS intervention_type
+    END  AS intervention_type
 FROM customers c
 JOIN returns r ON c.customer_id = r.customer_id
 GROUP BY c.customer_id, c.full_name,
@@ -320,7 +311,6 @@ ORDER BY total_returns DESC;
 
 USE return_analyzer;
 
--- Create a new view that has both returned and non-returned
 DROP VIEW IF EXISTS vw_orders_fact;
 CREATE VIEW vw_orders_fact AS
 SELECT
@@ -344,9 +334,9 @@ SELECT
     o.customer_segment,
     o.is_returned,
     o.is_perishable,
-    COALESCE(r.total_loss, 0)           AS total_loss,
-    COALESCE(r.return_reason, 'N/A')    AS return_reason,
-    COALESCE(r.refund_amount, 0)        AS refund_amount
+    COALESCE(r.total_loss, 0)  AS total_loss,
+    COALESCE(r.return_reason, 'N/A') AS return_reason,
+    COALESCE(r.refund_amount, 0) AS refund_amount
 FROM orders o
 LEFT JOIN returns r ON o.order_id = r.order_id;
 
@@ -380,10 +370,10 @@ SELECT
       o.order_month,
       o.category,
       o.city,
-      COUNT(o.order_id)                                    AS orders,
-      SUM(o.is_returned)                                   AS returns,
+      COUNT(o.order_id) AS orders,
+      SUM(o.is_returned)  AS returns,
       ROUND(SUM(o.is_returned)*100.0/COUNT(o.order_id),2) AS return_rate_pct,
-      ROUND(COALESCE(SUM(r.total_loss),0)/1000,1)         AS loss_k
+      ROUND(COALESCE(SUM(r.total_loss),0)/1000,1) AS loss_k
   FROM orders o
   LEFT JOIN returns r ON o.order_id = r.order_id
   GROUP BY o.order_month, o.category, o.city;
