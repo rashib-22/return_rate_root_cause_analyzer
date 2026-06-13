@@ -1,30 +1,24 @@
--- =============================================================
+
 -- FILE  : 01_create_schema.sql
 -- PROJECT: Return Rate Root Cause Analyzer — Quick Commerce
--- PURPOSE: Create DB + all 5 tables with indexes & FK constraints
--- HOW TO USE: Open in MySQL Workbench → Run All (Ctrl+Shift+Enter)
--- =============================================================
 
 CREATE DATABASE IF NOT EXISTS return_analyzer
     CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 USE return_analyzer;
 
--- Drop in reverse FK order so reruns don't fail
 DROP TABLE IF EXISTS returns;
 DROP TABLE IF EXISTS orders;
 DROP TABLE IF EXISTS products;
 DROP TABLE IF EXISTS customers;
 DROP TABLE IF EXISTS delivery_slots;
 
--- ─────────────────────────────────────────────────────────────
--- TABLE 1: products  (459 rows — SKU master catalogue)
--- ─────────────────────────────────────────────────────────────
-CREATE TABLE products (
+
+-- TABLE 1: products  
     sku_id           VARCHAR(10)   NOT NULL PRIMARY KEY,
     product_name     VARCHAR(120)  NOT NULL,
     brand            VARCHAR(60)   NOT NULL,
-    brand_tier       VARCHAR(10)   NOT NULL,   -- Budget / Mid / Premium
+    brand_tier       VARCHAR(10)   NOT NULL,  
     category         VARCHAR(60)   NOT NULL,
     sub_category     VARCHAR(60)   NOT NULL,
     mrp              DECIMAL(10,2) NOT NULL,
@@ -39,9 +33,9 @@ CREATE TABLE products (
     INDEX idx_perish (is_perishable)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- ─────────────────────────────────────────────────────────────
--- TABLE 2: customers  (18,000 rows)
--- ─────────────────────────────────────────────────────────────
+
+-- TABLE 2: customers  
+
 CREATE TABLE customers (
     customer_id       VARCHAR(10)   NOT NULL PRIMARY KEY,
     full_name         VARCHAR(100)  NOT NULL,
@@ -51,7 +45,7 @@ CREATE TABLE customers (
     pincode           VARCHAR(10)   NOT NULL,
     join_date         DATE          NOT NULL,
     tenure_days       INT           NOT NULL,
-    segment           VARCHAR(15)   NOT NULL,   -- New/Growing/Loyal/Champion
+    segment           VARCHAR(15)   NOT NULL,   
     age_group         VARCHAR(10)   NOT NULL,
     gender            VARCHAR(10)   NOT NULL,
     has_subscription  TINYINT(1)    NOT NULL DEFAULT 0,
@@ -64,9 +58,8 @@ CREATE TABLE customers (
     INDEX idx_tenure  (tenure_days)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- ─────────────────────────────────────────────────────────────
--- TABLE 3: delivery_slots  (6 rows — slot reference table)
--- ─────────────────────────────────────────────────────────────
+-- TABLE 3: delivery_slots  
+-- 
 CREATE TABLE delivery_slots (
     slot_id              VARCHAR(6)   NOT NULL PRIMARY KEY,
     slot_name            VARCHAR(50)  NOT NULL,
@@ -78,9 +71,8 @@ CREATE TABLE delivery_slots (
     recommended_capacity VARCHAR(10)  NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- ─────────────────────────────────────────────────────────────
--- TABLE 4: orders  (80,000 rows — core transaction table)
--- ─────────────────────────────────────────────────────────────
+-- TABLE 4: orders 
+
 CREATE TABLE orders (
     order_id              VARCHAR(12)   NOT NULL PRIMARY KEY,
     customer_id           VARCHAR(10)   NOT NULL,
@@ -127,9 +119,8 @@ CREATE TABLE orders (
     INDEX idx_agent     (delivery_agent_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- ─────────────────────────────────────────────────────────────
--- TABLE 5: returns  (16,713 rows — one row per return event)
--- ─────────────────────────────────────────────────────────────
+
+-- TABLE 5: returns 
 CREATE TABLE returns (
     return_id               VARCHAR(12)   NOT NULL PRIMARY KEY,
     order_id                VARCHAR(12)   NOT NULL,
@@ -143,7 +134,7 @@ CREATE TABLE returns (
     return_month            VARCHAR(7)    NOT NULL,
     days_to_return          INT           NOT NULL DEFAULT 0,
     return_reason           VARCHAR(60)   NOT NULL,
-    return_reason_group     VARCHAR(20)   NOT NULL,  -- Logistics / Quality / Customer
+    return_reason_group     VARCHAR(20)   NOT NULL,  
     refund_amount           DECIMAL(10,2) NOT NULL,
     reverse_logistics_cost  DECIMAL(10,2) NOT NULL,
     total_loss              DECIMAL(10,2) NOT NULL,
@@ -169,7 +160,7 @@ CREATE TABLE returns (
     INDEX idx_agent     (delivery_agent_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-SELECT 'return_analyzer schema created successfully' AS status;
+
 SHOW TABLES;
 
 use return_analyzer
