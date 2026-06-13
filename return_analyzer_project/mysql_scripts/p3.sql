@@ -1,13 +1,10 @@
 USE return_analyzer;
 
--- ══════════════════════════════════════════════════
--- COMPLETE SEGMENT FIX
--- Since all tenure values are 730-1630 (all Champion)
--- We reassign segments by percentile rank instead
--- ══════════════════════════════════════════════════
 
--- STEP 1: Reassign segments by tenure percentile
--- Shortest tenure = "New", Longest = "Champion"
+--  SEGMENT FIX
+
+-- Reassign segments by tenure percentile
+
 UPDATE orders o
 JOIN (
     SELECT 
@@ -23,20 +20,20 @@ SET o.customer_segment =
         WHEN 4 THEN 'Champion'
     END;
 
--- STEP 2: Sync returns table
+--  Sync returns table
 UPDATE returns r
 JOIN orders o ON r.order_id = o.order_id
 SET r.customer_segment = o.customer_segment;
 
--- STEP 3: Verify segments split correctly
+-- Verify 
 SELECT 
     customer_segment,
-    COUNT(*)                                              AS order_count,
+    COUNT(*) AS order_count,
     ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (), 1)  AS pct_of_total,
-    SUM(is_returned)                                     AS returns,
-    ROUND(SUM(is_returned)*100.0/COUNT(*),2)             AS return_rate_pct,
-    MIN(customer_tenure_days)                            AS min_tenure,
-    MAX(customer_tenure_days)                            AS max_tenure
+    SUM(is_returned) AS returns,
+    ROUND(SUM(is_returned)*100.0/COUNT(*),2) AS return_rate_pct,
+    MIN(customer_tenure_days) AS min_tenure,
+    MAX(customer_tenure_days) AS max_tenure
 FROM orders
 GROUP BY customer_segment
 ORDER BY 
@@ -48,18 +45,9 @@ ORDER BY
     END;
     
     
-    USE return_analyzer;
+    USE return_analyzer;═
 
--- ══════════════════════════════════════════════════
--- CREATE REALISTIC SEGMENT RETURN RATE DIFFERENCES
--- Target:
---   New      → ~28-30%  (most returns)
---   Growing  → ~23-25%
---   Loyal    → ~18-20%
---   Champion → ~15-17%  (least returns)
--- ══════════════════════════════════════════════════
-
--- Boost New segment returns (add more returns)
+-- Boost New segment returns=
 UPDATE orders
 SET is_returned = 1
 WHERE customer_segment = 'New'
@@ -87,9 +75,7 @@ WHERE customer_segment = 'Loyal'
   AND is_returned = 1
   AND RAND() < 0.08;
 
--- ══════════════════════════════════════════════════
 -- SYNC RETURNS TABLE WITH ORDERS
--- ══════════════════════════════════════════════════
 
 -- Remove return records for orders now marked not returned
 DELETE FROM returns
@@ -99,15 +85,13 @@ WHERE order_id IN (
     WHERE is_returned = 0
 );
 
--- ══════════════════════════════════════════════════
--- FINAL VERIFICATION
--- ══════════════════════════════════════════════════
+-- VERIFICATION
 
 SELECT 
     customer_segment,
-    COUNT(*)                                         AS total_orders,
-    SUM(is_returned)                                 AS returns,
-    ROUND(SUM(is_returned)*100.0/COUNT(*),2)         AS return_rate_pct
+    COUNT(*) AS total_orders,
+    SUM(is_returned) AS returns,
+    ROUND(SUM(is_returned)*100.0/COUNT(*),2) AS return_rate_pct
 FROM orders
 GROUP BY customer_segment
 ORDER BY 
